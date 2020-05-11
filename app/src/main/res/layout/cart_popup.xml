@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="100dp"
+    android:layout_gravity="center_horizontal"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@color/colorBrown">
+
+
+    <TextView
+        android:paddingTop="20dp"
+        android:id="@+id/text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="146dp"
+        android:layout_marginLeft="146dp"
+        android:layout_marginTop="5dp"
+        android:text="Quantity"
+        android:textColor="@color/colorGold"
+        android:textSize="35dp" />
+
+    <EditText
+        android:id="@+id/cart_item_qty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/text_view"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="53dp"
+        android:layout_marginRight="53dp"
+        android:layout_marginBottom="0dp"
+        android:gravity="center_horizontal"
+        android:inputType="number"
+        android:textColor="@color/colorGold"
+        android:textSize="20dp" />
+
+
+</RelativeLayout>

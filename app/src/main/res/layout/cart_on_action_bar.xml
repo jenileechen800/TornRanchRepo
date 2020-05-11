@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/action_bar_logo_clear"
+        android:layout_width="275dp"
+        android:layout_height="278dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/torn_ranch_clear_logo" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@id/action_bar_logo_clear"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="284dp"
+        android:src="@drawable/cart"
+        android:outlineSpotShadowColor="@color/colorGold"
+        android:onClick="onClickMainCart"/>
+
+</RelativeLayout>

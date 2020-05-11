@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:columnCount="5"
+    android:rowCount="5"
+    tools:context=".MainPage.MainActivity"
+    android:orientation="vertical"
+    android:background="@color/colorWhite">
+
+<!--<TextView-->
+        <!--android:id="@+id/Popup"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--/>-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal">-->
+
+
+
+        <!--<Spinner-->
+            <!--android:id="@+id/account"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:entries="@array/account_selections"-->
+            <!--android:layout_margin="10dp"/>-->
+
+        <!--<Spinner-->
+            <!--android:id="@+id/shop"-->
+            <!--android:layout_width="wrap_content"-->
+
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_margin="10dp"-->
+            <!--android:entries="@array/shop_selections"-->
+            <!--app:fontFamily="serif" />-->
+
+        <!--<SearchView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content">-->
+        <!--</SearchView>-->
+
+    <!--</LinearLayout>-->
+    <Button
+        android:text="About Us"
+        android:layout_width="420dp"
+        android:layout_height="20dp"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorGold"
+        android:onClick="onClickAboutUs"/>
+
+    <ScrollView
+        android:layout_width="400dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+            <ImageView
+            android:id="@+id/cookies"
+            android:layout_marginStart="64dp"
+            android:layout_marginLeft="64dp"
+            android:layout_width="274dp"
+            android:layout_height="204dp"
+
+            android:contentDescription="@string/cookies_descr"
+
+            android:onClick="onClickCookies"
+            android:src="@drawable/cookies" />
+
+        <ImageView
+            android:id="@+id/chocolates"
+            android:layout_marginStart="64dp"
+            android:layout_marginLeft="64dp"
+            android:layout_width="274dp"
+            android:layout_height="204dp"
+
+            android:contentDescription="@string/chocolates_descr"
+
+            android:onClick="onClickChocolates"
+            android:src="@drawable/chocolates" />
+
+        <ImageView
+            android:id="@+id/nuts"
+            android:layout_marginStart="64dp"
+            android:layout_marginLeft="64dp"
+            android:layout_width="274dp"
+            android:layout_height="204dp"
+
+            android:contentDescription="@string/nuts_descr"
+
+            android:onClick="onClickNuts"
+            android:src="@drawable/nuts" />
+
+        <ImageView
+            android:id="@+id/fruits"
+            android:layout_marginStart="64dp"
+            android:layout_marginLeft="64dp"
+            android:layout_width="274dp"
+            android:layout_height="204dp"
+
+            android:contentDescription="@string/fruits_descr"
+            android:onClick="onClickFruits"
+
+            android:src="@drawable/fruits" />
+
+        <ImageView
+            android:id="@+id/gifts"
+            android:layout_marginStart="64dp"
+            android:layout_marginLeft="64dp"
+            android:layout_width="274dp"
+            android:layout_height="204dp"
+
+            android:contentDescription="@string/gifts_descr"
+            android:onClick="onClickGifts"
+
+            android:src="@drawable/gifts" />
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="300dp"
+                android:layout_gravity="center_vertical"
+                android:onClick="onClickAboutUs"
+                android:src="@drawable/about_us_bottom" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>

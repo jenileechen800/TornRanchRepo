@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical"
+    tools:context=".MainFoodCategories.Gifts">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="170dp"
+        android:src="@drawable/g_h" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:rowCount="3">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="120dp"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_columnSpan="2"
+                android:src="@drawable/g_h_t" />
+
+            <FrameLayout>
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="210dp"
+                    android:src="@drawable/g_m" />
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="left"
+                    android:tag="g_m"
+                    android:src="@drawable/cart"
+                    android:onClick="onClickPopupCart"/>
+            </FrameLayout>
+
+            <FrameLayout>
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="210dp"
+                    android:src="@drawable/g_mv" />
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="left"
+                    android:tag="g_mv"
+                    android:src="@drawable/cart"
+                    android:onClick="onClickPopupCart"/>
+            </FrameLayout>
+
+            <FrameLayout>
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="210dp"
+                    android:src="@drawable/g_nc" />
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="left"
+                    android:tag="g_nc"
+                    android:src="@drawable/cart"
+                    android:onClick="onClickPopupCart"/>
+            </FrameLayout>
+
+            <FrameLayout>
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="210dp"
+                    android:src="@drawable/g_rt" />
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="left"
+                    android:tag="g_rt"
+                    android:src="@drawable/cart"
+                    android:onClick="onClickPopupCart"/>
+            </FrameLayout>
+
+            <FrameLayout>
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="210dp"
+                    android:src="@drawable/g_wc" />
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="left"
+                    android:tag="g_wc"
+                    android:src="@drawable/cart"
+                    android:onClick="onClickPopupCart"/>
+            </FrameLayout>
+
+            <FrameLayout>
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="210dp"
+                    android:src="@drawable/g_ft" />
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="left"
+                    android:tag="g_ft"
+                    android:src="@drawable/cart"
+                    android:onClick="onClickPopupCart"/>
+            </FrameLayout>
+
+        </GridLayout>
+
+    </ScrollView>
+
+</LinearLayout>

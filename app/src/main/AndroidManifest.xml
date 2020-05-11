@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hfad.tornranch">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.Launcher">
+        <activity android:name=".MainPage.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainFoodCategories.Cookies"
+            android:label="@string/title_activity_cookies"
+            android:theme="@style/AppTheme.Launcher.NoActionBar" />
+        <activity
+            android:name=".MainFoodCategories.Nuts"
+            android:label="@string/title_activity_nuts"
+            android:theme="@style/AppTheme.Launcher.NoActionBar" />
+        <activity
+            android:name=".MainFoodCategories.Chocolates"
+            android:label="@string/title_activity_chocolates"
+            android:theme="@style/AppTheme.Launcher.NoActionBar" />
+        <activity
+            android:name=".MainFoodCategories.Gifts"
+            android:label="@string/title_activity_gifts"
+            android:theme="@style/AppTheme.Launcher.NoActionBar" />
+        <activity
+            android:name=".MainFoodCategories.Fruits"
+            android:label="@string/title_activity_fruits"
+            android:theme="@style/AppTheme.Launcher.NoActionBar" />
+        <activity
+            android:name=".MainCart"
+            android:label="Cart"
+            android:theme="@style/AppTheme.Launcher.NoActionBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.wallet.api.enabled"
+            android:value="true" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".Pay"
+            android:label="@string/title_activity_pay"
+            android:theme="@style/AppTheme.Launcher.NoActionBar" />
+        <activity
+            android:name=".MainPage.AboutUs"
+            android:label="@string/title_activity_about_us"
+            android:theme="@style/AppTheme.Launcher.NoActionBar" />
+        <activity
+            android:name=".Search"
+            android:label="@string/title_activity_search"
+            android:theme="@style/AppTheme.Launcher.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+            <meta-data android:name="android.app.search"
+                android:resource="@xml/searchable" />
+        </activity>
+    </application>
+
+</manifest>

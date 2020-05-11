@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Torn Ranch</string>
+
+    <string-array name="shop_selections">
+        <item>Shop</item>
+        <item>Corporate Gifting</item>
+        <item>Flights</item>
+        <item>Hospitality</item>
+    </string-array>
+
+    <string-array name="account_selections">
+        <item>Account</item>
+        <item>Wishlist</item>
+        <item>Checkout</item>
+        <item>Login</item>
+        <item>Sign Up</item>
+    </string-array>
+
+    <string-array name="my_foods">
+        <item>Pizza</item>
+        <item>Hot Dogs</item>
+    </string-array>
+
+    <string name="shopping_cart">Shopping Cart</string>
+
+    <string name="our_story">Our Story</string>
+
+    <string name="cookies_descr">Fresh Baked Cookies and Biscotti</string>
+
+    <string name="nuts_descr">Gourment Nuts</string>
+
+    <string name="fruits_descr">Dry Fruits</string>
+
+    <string name="gifts_descr">Gifts</string>
+
+    <string name="chocolates_descr">Gourment Chocolates and Confections</string>
+
+    <string name="title_activity_account">Account</string>
+
+    <string name="new_customer_descr">
+        By creating an account with our store,
+        you will be able to move through the checkout process faster,
+        store multiple shipping addresses,
+        view and track your orders in your account and more.
+    </string>
+    <string name="title_activity_create_account">CreateAccount</string>
+    <string name="title_activity_cookies">Cookies</string>
+    <string name="title_activity_nuts">Nuts</string>
+    <string name="title_activity_chocolates">Chocolates</string>
+    <string name="title_activity_gifts">Gifts</string>
+    <string name="title_activity_fruits">Fruits</string>
+    <string name="title_activity_cart">Cart</string>
+    <string name="title_activity_pay">Pay</string>
+    <string name="title_activity_about_us">AboutUs</string>
+    <string name="title_activity_search_bar">SearchBar</string>
+    <string name="title_activity_search">Search</string>
+
+
+</resources>
